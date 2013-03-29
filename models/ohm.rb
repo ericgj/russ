@@ -31,7 +31,6 @@ class Feed < Ohm::Model
   attribute :uri
   attribute :title,        Type::Hash
   attribute :updated,      Type::Time
-  attribute :primary_link
   attribute :links,        Type::Array
   attribute :authors,      Type::Array
   attribute :categories,   Type::Array
@@ -51,6 +50,22 @@ class Feed < Ohm::Model
   def identity; uri;                  end
   def readers;  @readers ||= Set.new; end
   def tags;     @tags ||= Set.new;    end
+
+  def primary_link
+    links.find {|link| link['rel'] == 'self'}
+  end
+
+  def initialize(attrs={})
+    super
+    @attributes[:title] ||= SerializedHash.new
+    @attributes[:links] ||= SerializedArray.new
+    @attributes[:authors] ||= SerializedArray.new
+    @attributes[:categories] ||= SerializedArray.new
+    @attributes[:contributors] ||= SerializedArray.new
+    @attributes[:generator] ||= SerializedHash.new
+    @attributes[:rights] ||= SerializedHash.new
+  end
+
 
   class << self
     def find_subscribed_by(readers)
@@ -95,7 +110,6 @@ class Entry < Ohm::Model
   attribute :uri
   attribute :title,        Type::Hash
   attribute :updated,      Type::Time
-  attribute :primary_link
   attribute :links,        Type::Array
   attribute :authors,      Type::Array
   attribute :categories,   Type::Array
@@ -110,6 +124,23 @@ class Entry < Ohm::Model
 
   index :uri
   index :updated
+
+  def primary_link
+    links.find {|link| link['rel'] == 'self'}
+  end
+
+  def initialize(attrs={})
+    super
+    @attributes[:title] ||= SerializedHash.new
+    @attributes[:links] ||= SerializedArray.new
+    @attributes[:authors] ||= SerializedArray.new
+    @attributes[:categories] ||= SerializedArray.new
+    @attributes[:contributors] ||= SerializedArray.new
+    @attributes[:summary] ||= SerializedHash.new
+    @attributes[:content] ||= SerializedHash.new
+    @attributes[:rights] ||= SerializedHash.new
+    @attributes[:source] ||= SerializedHash.new
+  end
 
 end
 
