@@ -6,7 +6,7 @@ require_relative 'routes'
 
 Cuba.plugin Cuba::Render
 
-Cuba.settings[:render][:template_engine] = 'slim'
+Cuba.settings[:render][:template_engine] = 'nokogiri'
 
 Cuba.define do
 

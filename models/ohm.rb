@@ -29,12 +29,22 @@ class Feed < Ohm::Model
   include Ohm::DataTypes
 
   attribute :uri
-  attribute :title
-  attribute :author
-  attribute :updated, Type::Time
-  collection :entries, :Entry
+  attribute :title,        Type::Hash
+  attribute :updated,      Type::Time
+  attribute :primary_link
+  attribute :links,        Type::Array
+  attribute :authors,      Type::Array
+  attribute :categories,   Type::Array
+  attribute :contributors, Type::Array
+  attribute :generator,    Type::Hash
+  attribute :icon
+  attribute :rights,       Type::Hash
+  attribute :subtitle
+
+  collection :entries,     :Entry
   
   unique :identity
+  index :updated
   index :readers
   index :tags
 
@@ -83,10 +93,23 @@ class Entry < Ohm::Model
   include Ohm::DataTypes
 
   attribute :uri
-  attribute :title
-  attribute :author
-  attribute :updated, Type::Time
-  reference :source, :Feed
+  attribute :title,        Type::Hash
+  attribute :updated,      Type::Time
+  attribute :primary_link
+  attribute :links,        Type::Array
+  attribute :authors,      Type::Array
+  attribute :categories,   Type::Array
+  attribute :contributors, Type::Array
+  attribute :summary,      Type::Hash
+  attribute :content,      Type::Hash
+  attribute :published,    Type::Time
+  attribute :rights,       Type::Hash
+  attribute :source,       Type::Hash
   
+  reference :feed,   :Feed
+
+  index :uri
+  index :updated
+
 end
 
