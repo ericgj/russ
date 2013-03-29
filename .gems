@@ -1,0 +1,4 @@
+nokogiri -v 1.5.6
+feed_me -v 0.7.1
+ohm -v 1.2.0
+ohm-contrib -v 1.2
