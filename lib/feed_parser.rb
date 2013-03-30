@@ -1,20 +1,73 @@
 require 'nokogiri'
 
+class Struct
+  unless self.methods.respond_to?(:to_h)
+    def to_h
+      self.members.inject({}) {|h,k|
+        h[k] = self.send(k) if self.send(k)
+        h
+      }
+    end
+  end
+end
+
+#TODO: source element
+#TODO: deal with case of embedded (unescaped) xhtml in content tags
+
 module Russ
 
   class AtomParser < Nokogiri::XML::SAX::Document
 
-    class TextElement < Struct.new(:type, :content)
-      unless self.methods.respond_to?(:to_h)
-        def to_h
-          self.members.inject({}) {|h,k|
-            h[k]= self.send(k)
-            h
-          }
-        end
+    class TextElement
+      attr_accessor :type, :content
+      
+      def initialize(type)
+        self.type = type
+      end
+
+      def to_h
+        [:type, :content].inject({}) {|h,k|
+          h[k] = self.send(k) if self.send(k)
+          h
+        }
       end
     end
 
+    class PersonElement < Struct.new(:name, :uri, :email); end
+
+    class ContentElement
+      attr_accessor :type, :src, :content
+
+      def initialize(attrs={})
+        self.type = attrs['type']
+        self.src  = attrs['src']
+      end
+
+      def to_h
+        [:type, :src, :content].inject({}) {|h,k|
+          h[k] = self.send(k) if self.send(k)
+          h
+        }
+      end
+
+    end
+
+    class GeneratorElement
+      attr_accessor :uri, :version, :content
+
+      def initialize(attrs={})
+        self.version = attrs['version']
+        self.uri  = attrs['uri']
+      end
+
+      def to_h
+        [:uri, :version, :content].inject({}) {|h,k|
+          h[k] = self.send(k) if self.send(k)
+          h
+        }
+      end
+    end
+    
     attr_accessor :tag, :attrs
     attr_accessor :feed, :entry, :el, :target_meth
 
@@ -50,8 +103,11 @@ module Russ
       (a = ancestors) == [:feed] || a == [:feed,:entry] 
     end
 
-    def within_el?
-      !!self.el
+    def within_feed_or_entry_element?
+      [:title,:link,:category,:author,:contributor,
+       :content,:summary,:rights].map {|tag|
+         [:feed,:entry,tag]
+      }.include?(ancestors)
     end
 
     def start_element(name,attrs=[])
@@ -69,13 +125,9 @@ module Russ
   
     def characters(chars)
       return unless (c = (self.el || self.current)) and (m = self.target_meth)
-      log "#{self.tag}: #{chars[0..30]}"
+      # log "#{self.tag}: #{chars[0..30]}"
       c.__send__("#{m}=", (c.__send__(m) || '') + chars)
     end
-
-def log(msg)
-  $stderr.puts msg
-end
 
     def on_start_feed
       self.feed = Feed.new
@@ -115,40 +167,106 @@ end
       self.el = nil; self.target_meth = nil
     end
 
-    def on_start_updated
-      self.target_meth = :updated
-    end
-
-    def on_end_updated
-      self.target_meth = nil
-    end
-
-    def on_start_link
-    end
-
     def on_end_link
       links = self.current.links
       self.current.links = links + [Hash[self.attrs]]
       self.el = nil
     end
 
-    
+    def on_end_category
+      categories = self.current.categories
+      self.current.categories = categories + [Hash[self.attrs]]
+      self.el = nil
+    end
 
-#  attribute :uri
-#  attribute :title,        Type::Hash
-#  attribute :updated,      Type::Time
-#  attribute :primary_link
-#  attribute :links,        Type::Array
-#  attribute :authors,      Type::Array
-#  attribute :categories,   Type::Array
-#  attribute :contributors, Type::Array
-#  attribute :generator,    Type::Hash
-#  attribute :icon
-#  attribute :rights,       Type::Hash
-#  attribute :subtitle
-#
-#  collection :entries,     :Entry
- 
+    def on_start_author
+      self.el = PersonElement.new
+      self.target_meth = :content
+    end
+
+    def on_end_author
+      authors = self.current.authors
+      self.current.authors = authors + [self.el.to_h]
+      self.el = nil; self.target_meth = nil
+    end
+
+    def on_start_contributor
+      self.el = PersonElement.new
+      self.target_meth = :content
+    end
+
+    def on_end_contributor
+      contributors = self.current.contributors
+      self.current.contributors = contributors + [self.el.to_h]
+      self.el = nil; self.target_meth = :content
+    end
+
+    def on_start_content
+      self.el = ContentElement.new(Hash[self.attrs])
+      self.target_meth = :content
+    end
+
+    def on_end_content
+      self.current.content = self.el.to_h
+      self.el = nil; self.target_meth = nil
+    end
+
+    def on_start_generator
+      self.el = GeneratorElement.new(Hash[self.attrs])
+      self.target_meth = :content
+    end
+
+    def on_end_generator
+      self.current.generator = self.el.to_h
+      self.el = nil; self.target_meth = nil
+    end
+
+    def on_start_summary
+      self.el = TextElement.new(Hash[self.attrs]['type'])
+      self.target_meth = :content
+    end
+
+    def on_end_summary
+      self.current.summary = self.el.to_h
+      self.el = nil; self.target_meth = nil
+    end
+
+    def on_start_rights
+      self.el = TextElement.new(Hash[self.attrs]['type'])
+      self.target_meth = :content
+    end
+
+    def on_end_rights
+      self.current.rights = self.el.to_h
+      self.el = nil; self.target_meth = nil
+    end
+
+    #---- PersonElement tags
+
+    def on_start_name
+      self.target_meth = :name
+    end
+
+    def on_end_name
+      self.target_meth = nil
+    end
+
+    def on_start_email
+      self.target_meth = :email
+    end
+
+    def on_end_email
+      self.target_meth = nil
+    end
+
+    def on_start_uri
+      self.target_meth = :uri
+    end
+
+    def on_end_uri
+      self.target_meth = nil
+    end
+
   end
 
 end
