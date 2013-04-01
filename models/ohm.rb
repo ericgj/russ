@@ -37,6 +37,7 @@ class Feed < Ohm::Model
   attribute :contributors, Type::Array
   attribute :generator,    Type::Hash
   attribute :icon
+  attribute :logo
   attribute :rights,       Type::Hash
   attribute :subtitle
 

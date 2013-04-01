@@ -1,3 +1,4 @@
+require 'cuba'
 require 'cuba/render'
 
 require_relative 'libs'

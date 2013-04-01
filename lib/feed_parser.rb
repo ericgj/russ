@@ -71,6 +71,10 @@ module Russ
     attr_accessor :tag, :attrs
     attr_accessor :feed, :entry, :el, :target_meth
 
+    def initialize(feed=nil)
+      self.feed = feed if feed
+    end
+
     def current
       entry || feed
     end
@@ -130,7 +134,7 @@ module Russ
     end
 
     def on_start_feed
-      self.feed = Feed.new
+      self.feed ||= Feed.new
     end
 
     def on_end_feed

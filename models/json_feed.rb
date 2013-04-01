@@ -7,7 +7,7 @@ module Russ
     module Utils
 
       def rfc3339(dt)
-        dt.strftime '%Y-%m-%dT%H:%M:%S%:z' 
+        dt.strftime('%Y-%m-%dT%H:%M:%S%:z') if dt
       end
  
       # Note: casting to hash done in model
@@ -91,7 +91,7 @@ module Russ
       end
 
       def _entries_array
-        entries.map {|e| JsonEntry.new(e).to_hash}
+        entries.map {|e| Entry.new(e).to_hash}
       end
 
     end
@@ -99,7 +99,7 @@ module Russ
     class Entry < SimpleDelegator
       include Utils
 
-      def metadata_hash
+      def to_hash
         {
           id:           uri,
           title:        text_element(title),
@@ -112,10 +112,6 @@ module Russ
           summary:      text_element(summary),
           content:      text_element(content)
         }.merge( _optional_tags )
-      end
-
-      def to_hash
-        metadata_hash.merge({ entries: _entries_array })
       end
 
       def to_s
