@@ -1,12 +1,16 @@
 require 'json'
 require_relative 'test_helper_server'
 
-describe 'GET /feed/:uri, json response, controller' do
+describe 'GET /feed/:slug, json response, controller' do
+
+  def feed_slug(uri)
+    Feed.with(:identity,uri).slug
+  end
 
   before do
     load_feed 'feeds/atom-feed.xml'
     header 'Accept', 'application/json'
-    get '/feed/atom-feed'
+    get "/feed/#{feed_slug('atom-feed')}"
   end
 
   it 'should return status ok' do

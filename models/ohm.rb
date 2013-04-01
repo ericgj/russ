@@ -1,9 +1,19 @@
 require 'set'
+require 'nokogiri'
 require 'ohm/datatypes'
 
+# TODO: move to lib
+module Ohm
+  class Model
+    def self.get_attributes; attributes; end
+  end
 
-class Ohm::Model
-  def self.get_attributes; attributes; end
+  module Slug
+    def slug(str = to_s)
+      str.gsub("'","").gsub(/\p{^Alnum}/u, " ").strip.gsub(/\s+/,"-").downcase
+    end
+  end
+
 end
 
 class Reader < Ohm::Model
@@ -45,6 +55,7 @@ end
 
 class Feed < Ohm::Model
   include Ohm::DataTypes
+  extend Ohm::Slug
 
   attribute :uri
   attribute :title,        Type::Hash
@@ -62,16 +73,28 @@ class Feed < Ohm::Model
   collection :entries,     :Entry
   
   unique :identity
+  unique :slug
   index :updated
   index :readers
   index :tags
 
-  def identity; uri;                  end
+  def identity; uri;                      end
+  def slug;     _slugify;                 end
   def readers;  @readers ||= Set.new; end
   def tags;     @tags ||= Set.new;    end
 
   def primary_link
     links.find {|link| link['rel'] == 'self'}
+  end
+
+  # TODO: move this to parser?
+  def title_text
+    return if title.empty? || !title['content']
+    if title['type'] && /html/i =~ title['type']
+      Nokogiri::HTML.fragment(title['content']).inner_text
+    else
+      title['content']
+    end
   end
 
   # Note string keys to preserve identity before/after serialization
@@ -98,6 +121,11 @@ class Feed < Ohm::Model
     @attributes[:rights] ||= SerializedHash.new
   end
 
+  private
+
+  def _slugify
+    "#{id}-#{self.class.slug( title_text || '' )}"
+  end
 
   class << self
 

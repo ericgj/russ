@@ -4,7 +4,7 @@ class Struct
   unless self.methods.respond_to?(:to_h)
     def to_h
       self.members.inject({}) {|h,k|
-        h[k] = self.send(k) if self.send(k)
+        h[k.to_s] = self.send(k) if self.send(k)
         h
       }
     end
@@ -48,7 +48,7 @@ module Russ
 
       def to_h
         [:type, :content].inject({}) {|h,k|
-          h[k] = self.send(k) if self.send(k)
+          h[k.to_s] = self.send(k) if self.send(k)
           h
         }
       end
@@ -66,7 +66,7 @@ module Russ
 
       def to_h
         [:type, :src, :content].inject({}) {|h,k|
-          h[k] = self.send(k) if self.send(k)
+          h[k.to_s] = self.send(k) if self.send(k)
           h
         }
       end
@@ -83,7 +83,7 @@ module Russ
 
       def to_h
         [:uri, :version, :content].inject({}) {|h,k|
-          h[k] = self.send(k) if self.send(k)
+          h[k.to_s] = self.send(k) if self.send(k)
           h
         }
       end

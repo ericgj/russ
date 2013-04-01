@@ -2,11 +2,11 @@
 class SourceFeedRoutes < Cuba
   define do
   
-    on ':uri' do |uri|
+    on ':slug' do |slug|
 
       on get do
 
-        feed = Feed.with(:identity,uri)
+        feed = Feed.with(:slug,slug)
         rep = Russ::Json::Feed.new(feed)
 
         on accept('application/json') do
