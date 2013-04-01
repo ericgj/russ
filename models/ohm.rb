@@ -172,7 +172,7 @@ class Feed < Ohm::Model
   private
 
   def _slugify
-    "#{id}-#{self.class.slug( title_text || '' )}"
+    "#{id}-#{self.class.slug( title_text || uri || '' )}"
   end
 
 end
