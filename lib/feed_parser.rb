@@ -18,6 +18,27 @@ module Russ
 
   class AtomParser < Nokogiri::XML::SAX::Document
 
+    class Error < StandardError
+      
+      attr_reader :underlying_error, :parser 
+
+      def initialize(e,parser)
+        @underlying_error = e
+        @parser = parser
+      end
+
+      def to_s
+        [ "Parse error at /#{parser.ancestors.join('/')}/#{parser.tag}",
+          parser.entry_count == 0 ? 
+            "(in feed metadata)" : 
+            "(in entry #{parser.entry_count})",
+          "Underlying error:",
+          underlying_error.to_s
+        ].join("\n")
+      end
+
+    end
+
     class TextElement
       attr_accessor :type, :content
       
@@ -69,10 +90,15 @@ module Russ
     end
     
     attr_accessor :tag, :attrs
-    attr_accessor :feed, :entry, :el, :target_meth
+    attr_accessor :feed, :entry, :el, :target_meth, :entry_count
 
     def initialize(feed=nil)
       self.feed = feed if feed
+      self.entry_count = 0
+    end
+
+    def wrap_error(e)
+      raise Error.new(e, self)
     end
 
     def current
@@ -115,22 +141,33 @@ module Russ
     end
 
     def start_element(name,attrs=[])
+      @buf = nil
       self.tag = name.to_sym; self.attrs = attrs
       handler = "on_start_#{name}"
       self.__send__(handler) if respond_to?(handler) 
       tree.push [self.tag, self.attrs]
+    rescue StandardError => e
+      wrap_error e
     end
 
     def end_element(name)
+      if @buf && /^\s*$/ !~ @buf
+        if (c = (self.el || self.current)) and (m = self.target_meth)
+          c.__send__("#{m}=",@buf)
+        end
+      end
+      @buf = nil
       tree.pop
       handler = "on_end_#{name}"
       self.__send__(handler) if respond_to?(handler) 
+    rescue StandardError => e
+      wrap_error e
     end
   
     def characters(chars)
-      return unless (c = (self.el || self.current)) and (m = self.target_meth)
-      # log "#{self.tag}: #{chars[0..30]}"
-      c.__send__("#{m}=", (c.__send__(m) || '') + chars)
+      @buf = (@buf || '') + chars
+    rescue StandardError => e
+      wrap_error e
     end
 
     def on_start_feed
@@ -144,6 +181,7 @@ module Russ
 
     def on_start_entry
       self.entry = Entry.new
+      self.entry_count += 1
     end
 
     def on_end_entry
@@ -169,6 +207,22 @@ module Russ
     def on_end_title
       self.current.title = self.el.to_h
       self.el = nil; self.target_meth = nil
+    end
+
+    def on_start_updated
+      self.target_meth = :updated
+    end
+
+    def on_end_updated
+      self.target_meth = nil
+    end
+
+    def on_start_published
+      self.target_meth = :published
+    end
+
+    def on_end_published
+      self.target_meth = nil
     end
 
     def on_end_link

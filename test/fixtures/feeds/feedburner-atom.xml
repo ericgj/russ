@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>feedburner-atom</id>
+  <link type="text/html" href="http://toprubyjobs.com/jobs" rel="alternate" />
+  <title>Top Ruby Jobs</title>
+  <updated>2013-03-28T21:31:04Z</updated>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/TopRubyJobs" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="toprubyjobs" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+    <id>tag:toprubyjobs.com,2010:Job/527</id>
+    <published>2013-03-28T21:31:04Z</published>
+    <updated>2013-03-31T17:50:38Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/527-spree-commerce-developer%252Fsr-developer" rel="alternate" />
+    <title>Developer/Sr. Developer needed at Spree Commerce</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Bethesda, Maryland, United States&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time&lt;/p&gt;&lt;a href="http://toprubyjobs.com/527-spree-commerce-developer%2Fsr-developer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/527.png?1364506264" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;We are hiring talented Ruby on Rails developers who love solving challenging problems. This is a great opportunity to work for a company that is passionate about open source, and you&amp;rsquo;ll be part of a team that is building the platform that will form the future fabric of e-commerce.&lt;/p&gt;
+&lt;p&gt;Position reports to CTO.&lt;/p&gt;
+&lt;p&gt;Job Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Experience with open source is a strong plus (mention your Github username).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Prior experience with Spree is not necessary but we do require at least 12 months of experience with Ruby on Rails.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Must be a creative problem solver who is not afraid to tackle complex issues and can design simple, extensible solutions.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;Must also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Want to be part of a dynamic, growing organization.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Be nimble and adjust well to change.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Enjoy working in an open office environment where you can collaborate and have fun with your co-workers.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Be results oriented.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;Be passionate about winning as part of a team.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;Spree Commerce offers full benefits including health insurance and a retirement plan with an employer match.&lt;/p&gt;
+&lt;p&gt;Spree Commerce Inc. is an equal opportunity employer and will not discriminate against any employee or applicant on the basis of age, color, disability, gender, national origin, race, religion, sexual orientation, veteran status, or any classification protected by federal, state, or local law.&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; To apply send your resume to jobs@spreecommerce.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/526</id>
+    <published>2013-03-27T18:12:18Z</published>
+    <updated>2013-03-31T17:49:13Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/526-iseatz%252C-inc-web-developer" rel="alternate" />
+    <title>Web Developer needed at iSeatz, Inc.</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; New Orleans, Louisiana, USA&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time&lt;/p&gt;&lt;a href="http://toprubyjobs.com/526-iseatz%2C-inc-web-developer"&gt;&lt;img src="/logos/small/missing.png" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Founded in 1999, iSeatz is a global provider of customized online travel solutions.&amp;nbsp; Our focus on excellence and customer service has made us the choice of some of the world&amp;rsquo;s largest travel and finance companies.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What You&amp;rsquo;ll Be Doing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You will be responsible for working with other developers, business analysts, and QA analysts to implement new features for our partners&amp;rsquo; sites.&amp;nbsp; You will work in our full stack, from javascript, html, and css; to ruby on rails, redis, memcached, and postgresql.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our ideal candidate has experience with:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ruby on Rails, HTML, Javascript, CSS&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bonus Points for:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Git, Github, jQuery, Backbone.js, Node.js&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Compensation, Benefits, &amp;amp; Perks&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Competitive salary&lt;/li&gt;
+&lt;li&gt;Medical, dental and life insurance eligibility from date of hire (with company contribution)&lt;/li&gt;
+&lt;li&gt;401(k) plan&lt;/li&gt;
+&lt;li&gt;3 weeks vacation each year (with accrual beginning on date of hire)&lt;/li&gt;
+&lt;li&gt;Paid parking assistance&lt;/li&gt;
+&lt;li&gt;Laid-back environment where every day is &amp;ldquo;casual day&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Dog friendly office&lt;/li&gt;
+&lt;li&gt;Work in the heart of the exciting Warehouse/Arts District of New Orleans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Email resume, as well as github links if available to: jwalterhouse@iseatz.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/525</id>
+    <published>2013-03-26T19:51:04Z</published>
+    <updated>2013-03-31T17:53:52Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/525-science-exchange-%2528yc-s11%2529-software-engineer" rel="alternate" />
+    <title>Software Engineer needed at Science Exchange (YC S11)</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Palo Alto, CA, US&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/525-science-exchange-%28yc-s11%29-software-engineer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/525.png?1364327463" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;Science Exchange has stayed strategically small since our launch 2 years ago, carefully planning our growth strategy and testing the market. Our brand is as strong as we could imagine, our vision is growing, and our goals are extremely aggressive. That being said, we are now ready to take the next step -- we are looking for experienced, passionate, and motivated engineers to join our team and help us build one of the most important tools that research will see for years to come.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Science Exchange was founded by a Cancer Biologist, an Engineer, and an Economist -- we're spread across the knowledge spectrum perfectly. We are currently sitting at 6 members, meaning that every decision you make, every line of code you write, will have an immediate impact.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;We are based in Palo Alto, all of our open positions are as well.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;We are looking for experienced applicants, portfolios or github pages are great proof of this.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;We take our code seriously, we stay on top of new technologies and use the best tools available for the job. There is no red tape, if something can help make part of the site better, faster, prettier -- do it.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;The ideal applicant has&lt;/p&gt;
+&lt;p&gt;- Deep understanding of Ruby on Rails&lt;br /&gt;&lt;span style="font-size: 16px;"&gt;- Experience working with SOA (Service-oriented architecture)&lt;br /&gt;- Experience with EC2, Capistrano, NGINX, and related deployment technologies&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Please complete the short application form at https://www.scienceexchange.com/jobs/software-engineer&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/524</id>
+    <published>2013-03-14T22:20:50Z</published>
+    <updated>2013-03-31T18:47:15Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/524-yeti-media-full-stack-developer" rel="alternate" />
+    <title>Full Stack Developer needed at Yeti Media</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Brea, California, USA&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Contract, Remote&lt;/p&gt;&lt;a href="http://toprubyjobs.com/524-yeti-media-full-stack-developer"&gt;&lt;img src="/logos/small/missing.png" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;We are Yeti Media, an agile software development company and we&amp;rsquo;re passionate about our work and are seeking like minded individuals that would like to join our team. We have an amazingly smart team of devs that are extremely creative and are great supporters in the open-source community which even includes a core Ruby on Rails contributor. We are a small ambitious team that is growing fast and making great strides as part of the startup community.&lt;/p&gt;
+&lt;p&gt;As a full stack developer at Yeti we are seeking someone who has the following requirements:&lt;br /&gt;- Comfortable with HTML5, Javascript, CSS3.&lt;br /&gt;- Have a Github, Gitorious or Bitbucket profile.&amp;nbsp;&lt;br /&gt;- Released an open source project or have contributed to one.&lt;br /&gt;- Desire for Test-Driven Development and open communication with our team for daily Scrums meetings &amp;amp; Skype calls.&lt;br /&gt;- Ability to write well-abstracted, reusable code for a great UX.&lt;br /&gt;- Knowledge of Ruby, Rails (3 or more years), Rspec and Capybara.&amp;nbsp;&lt;span class="caps"&gt;RDBMS&lt;/span&gt;&amp;nbsp;(MySQL or postgreSQL).&amp;nbsp;&lt;br /&gt;- Experience in building web applications (3 or more years) &amp;amp; know responsive design.&lt;br /&gt;- Willingness to work hard to meet deadlines &amp;amp; exceed client as well as management expectations, especially able to work extended hours whenever needed to help meet project deadlines.&lt;br /&gt;*Bonus:&amp;nbsp;&lt;br /&gt;- Knowledge of at least one framework like Angular.js, Backbone.js or Ember.js.&lt;br /&gt;- Acquainted with CoffeeScript.&lt;br /&gt;- Familiar with NoSQL databases or understanding of Machine Learning.&lt;br /&gt;- Ability to be self-motivating and a team player.&lt;br /&gt;- Experience with Agile methodology, customer experience &amp;amp; usability research practices.&lt;/p&gt;
+&lt;p&gt;If you are a seasoned professional that would enjoy working with our friendly Yeti team then we look forward to hearing from you. Please send your resume as well as some sample projects for consideration.&lt;/p&gt;
+&lt;p&gt;We prefer candidates from&amp;nbsp;&lt;span class="caps"&gt;USA&lt;/span&gt;, Argentina and Colombia.&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; info@yeti-media.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/522</id>
+    <published>2013-02-27T09:07:22Z</published>
+    <updated>2013-03-31T16:50:00Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/522-vdm-verlagsservicegesellschaft-mbh-ruby-on-rails-developer" rel="alternate" />
+    <title>Ruby on Rails Developer needed at VDM Verlagsservicegesellschaft mbH</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Saarbrücken, Saarland, Germany&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/522-vdm-verlagsservicegesellschaft-mbh-ruby-on-rails-developer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/522.jpg?1361957496" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;VDM Verlagsservicegesellschaft mbH is a young, thriving service partner for publishers with its corner stones in delivering accounting, pre-print and IT services. With offices all over the world, we are looking for further opportunities in bringing the best service experience to our clients.&lt;/p&gt;
+&lt;p&gt;In a young, motivated team you would be expecting your tasks:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size: 16px; line-height: 1;"&gt;Web Front- and Backend Coding&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px; line-height: 21px;"&gt;Database Design for Relational Databases&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px; line-height: 21px;"&gt;Developing Mobile Apps&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;in an international publishing environment.&lt;br /&gt; &lt;br /&gt; Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;graduated software engineer or comparable education&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px;"&gt;2 years experience in coding object oriented&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-size: 16px; line-height: 21px;"&gt;6-12 months project experience in Ruby on Rails&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Preferred Skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL 5.5+, PostgreSQL&lt;/li&gt;
+&lt;li&gt;Git version control&lt;/li&gt;
+&lt;li&gt;JS/Cofeescript, jQuery, AJAX&lt;/li&gt;
+&lt;li&gt;Basic German language skills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bonus:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Experience with Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So if you think that coding is fun, you like to take initiative and like working result-oriented as well as in a team, if you are funny and have an own opinion we offer in return:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A safe job with continuous challenges&lt;/li&gt;
+&lt;li&gt;A competitive compensation based on your qualifications&lt;/li&gt;
+&lt;li&gt;A high responsibility but also a lot of freedom in your job&lt;/li&gt;
+&lt;li&gt;An inspiring work environment next to a beautiful river bank park (we also got tabletop soccer!)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Email your resumé to m.wegmann@vdm-vsg.de&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/521</id>
+    <published>2013-02-22T19:46:10Z</published>
+    <updated>2013-03-31T17:55:40Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/521-knoqcom-rails-engineer-for-knoqcom" rel="alternate" />
+    <title>Rails Engineer for Knoq.com needed at Knoq.com</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Seattle, WA, US&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/521-knoqcom-rails-engineer-for-knoqcom"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/521.png?1361562370" &gt;&lt;/a&gt;&lt;p&gt;&lt;p class="p1"&gt;&lt;span class="s1"&gt;&lt;strong&gt;About Knoq.com&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p2"&gt;&lt;span class="s2"&gt;Knoq.com is a well-funded startup that brings neighbors together and helps them get things done. We are revolutionizing the way household services are bought and facilitating neighborly interaction. We give people the ability to choose the level of interaction with their neighbors while still enjoying the best aspects of the place they live. Knoq also is a strong advocate of local small business and gives them incredible tools to run their business better and integrate themselves into the community.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p2"&gt;&lt;span class="s2"&gt;We have a team of fun, creative, talented, well-adjusted people who believe in the idea and are using our superpowers to make the promise of Knoq a reality. The team is a group of happy people who work reasonable hours and have fun at work and in the rest of their lives too. We&amp;rsquo;ve built a trusting environment where success is celebrated and problems are fixed without shame or blame. If this floats your boat and you have the chops, we want to talk to you.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p1"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class="p1"&gt;&lt;span class="s1"&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;Knoq.com is looking for an experienced technology professional with experience on at least one major Rails project to join our team.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p5"&gt;&lt;span class="s1"&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;&lt;strong&gt;Senior Rails Engineer&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Build cool new features&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Make current features work better&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Fix bugs&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Find best solutions to technical challenges regarding data, interfaces, 3rd party partnerships and the like&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p6"&gt;&lt;span class="s2"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;&lt;strong&gt;Product Manager&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Help define and refine the feature set and UI&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Contribute to discussions on strategic direction, increasing value/usage and virality&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Work with Founders and User Experience to engineer the best solutions&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p6"&gt;&lt;span class="s2"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;&lt;strong&gt;Operations Engineer&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Google analytics configuration, monitoring and analysis&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Server configuration&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Deployment of releases&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Help decide best tools to use for all things technical, implement them in our environment&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Manage outages and critical bug fixes&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p4"&gt;&lt;span class="s2"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;&lt;strong&gt;Lean Evangelist&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Advise and help the team adhere to hypothesis testing, MVPism, test development and user feedback collection.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p4"&gt;&lt;span class="s2"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p5"&gt;&lt;span class="s1"&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Experience delivering new, innovative features using Ruby on Rails, MySQL, jQuery, and other open source tools&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Comfortable developing any portion of Rails application stack from data store layer to browser&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Insistence on Test Driven Development&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Experience with different data access challenges, caching techniques, scalability best practices&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Strong database and data modeling skills &amp;mdash; experience with MySQL and NoSQL variants, like Hadoop and other map/reduce technologies is a plus&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Excel at designing and iterating solutions in small teams&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Strong software engineering fundamentals and understanding of data structures and algorithms.&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Proficiency working in a Linux environment&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Excited to work in a highly iterative development process with continual production releases&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;5+ years developing web applications&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;BS, Computer Science or equivalent work experience&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p6"&gt;&lt;span class="s2"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span class="s2"&gt;&lt;strong&gt;An ideal candidate would also have:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Strong Javascript and XHR coding skills including experience, jQuery and/or Backbone.js preferred&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Good knowledge of HTML and CSS best practices&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Experience building multiple consumer facing web applications backed by MySQL&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Strong sense of what makes for an application highly usable&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Previous experience with an early-stage venture-backed startup&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Experience with cloud computing (particularly Amazon Web Services or Heroku)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="p7"&gt;&lt;span class="s1"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p5"&gt;&lt;span class="s1"&gt;&lt;strong&gt;Benefits include:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Good money, steady paycheck&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Health insurance&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Generous vacation package&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Gym membership&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Paid conferences and networking events&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;Equity&lt;/span&gt;&lt;/li&gt;
+&lt;li class="li3"&gt;&lt;span class="s2"&gt;All the popcorn you can eat&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Email your resume to work@knoq.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/520</id>
+    <published>2013-02-15T18:57:54Z</published>
+    <updated>2013-03-31T17:57:34Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/520-reamplify-ruby-dev-%2526-ios-dev-up-to-%2524140k" rel="alternate" />
+    <title>Ruby Dev &amp; iOS Dev up to $140k needed at ReAmplify</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Denver, Colorado, United States and WILL RELOCATE RIGHT PERSON&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/520-reamplify-ruby-dev-%26-ios-dev-up-to-%24140k"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/520.jpg?1360954674" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;Our client, a cutting-edge late stage start-up lead by an industry rock star, is expanding rapidly as the potential for their service has been well received in the digital and mobile ecosystem. They can't build it fast enough and need some super talent in Ruby Developers and IOS Developers to play a key role in developing the most advanced social entertainment platform on the planet&lt;/p&gt;
+&lt;p&gt;If you want to be in on the next big thing, and think that you have the technical chops asked for below, then apply for a potential seat at the table! Very cool environment, unlimited career path as fast paced growth continues....&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;My client offers the following:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Work in their cool new downtown Denver offices building their deeply interactive user apps.&lt;/li&gt;
+&lt;li&gt;Know that what you're building will change the way consumers interact with entertainment, everywhere.&lt;/li&gt;
+&lt;li&gt;Thrive in a corporate culture that encourages thinking about virtual economies, mobile video, interactivity, social, location-based services, e-commerce and music.&lt;/li&gt;
+&lt;li&gt;Help to empower content creators, artists, brands, celebrities and media &amp;amp; entertainment companies with interactive superpowers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My client's core code is currently being developed by Pivotal Labs (Twitter, Groupon).&amp;nbsp; You will assume the responsibility of bringing the platform to Gold Master status, iterating the development of exciting new features, and expanding the platform's many user portals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;These are TWO seperate full-time roles and we will relocate/sponsor for the right person.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Role One&lt;/strong&gt;&lt;/span&gt;&amp;nbsp;-&amp;nbsp;&lt;em&gt;&lt;strong&gt;You're a brilliant, hardworking&amp;nbsp;mobile software developer.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;strong&gt;Desired Skills &amp;amp; Experience&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2+ years experience developing iOS and/or Android applications&lt;/li&gt;
+&lt;li&gt;Experience with Ruby and the Rails framework a plus&lt;/li&gt;
+&lt;li&gt;Highly motivated, self-starter, entrepreneurial; excited to be involved in high-level decision making and really put your mark on our product&lt;/li&gt;
+&lt;li&gt;Comfortable presenting both formally and informally with effective verbal, written, and interpersonal communication skills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Role Two&lt;/strong&gt;&lt;/span&gt;&amp;nbsp;-&amp;nbsp;&lt;em&gt;&lt;strong&gt;You're a brilliant, hardworking&amp;nbsp;Agile / Rails developer.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;strong&gt;Desired Skills &amp;amp; Experience&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2+ years experience with the Ruby language and the Rails framework, must have a proficiency with the entire Ruby on Rails stack&lt;/li&gt;
+&lt;li&gt;4+ years of standards compliant HTML/XHTML, CSS, JavaScript, and JQuery&lt;/li&gt;
+&lt;li&gt;4+ years of Java, PHP, or equivalent platform experience, including related DB experience such as MySQL, PostgreSQL, etc.&lt;/li&gt;
+&lt;li&gt;Experience with testing frameworks from spec and Test::Unit to Selenium and Jasmine&lt;/li&gt;
+&lt;li&gt;Highly motivated, self-starter, entrepreneurial; excited to be involved in high-level decision making and really put your mark on our product&lt;/li&gt;
+&lt;li&gt;Comfortable presenting both formally and informally with effective verbal, written, and interpersonal communication skills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Company Description&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;My client is a technology company building cutting edge social entertainment applications for Media and Entertainment companies and their fans.&amp;nbsp; The company is led by a team of seasoned technology, music, and entertainment executives based in Denver and Miami. We're excited to offer all of our employees a small, innovative, and entrepreneurial work environment with a competitive benefits package.&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Apply here http://reamplify.theresumator.com/apply/C2G3fv/Ruby-Dev-And-IOS-Dev.html&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/518</id>
+    <published>2013-02-13T23:16:06Z</published>
+    <updated>2013-03-31T17:59:56Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/518-itriage%252C-llc-sr-ruby-on-rails-engineer" rel="alternate" />
+    <title>Sr. Ruby on Rails Engineer needed at iTriage, LLC</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Denver, CO, US&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/518-itriage%2C-llc-sr-ruby-on-rails-engineer"&gt;&lt;img src="/logos/small/missing.png" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;The Company&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a rare opportunity to help shape the future of personal health on mobile and web.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;iTriage LLC is a technology start-up founded in late 2008 by two emergency medicine physicians. The company is a global developer of mobile and web healthcare software that empowers consumers to make better healthcare decisions, as well as improve healthcare delivery for providers and payers. iTriage is located in Denver, Colorado, and has a small but growing entrepreneurial team.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.itriagehealth.com/get-mobile"&gt;iTriage&lt;/a&gt; is one of the top consumer healthcare apps, and includes iPhone and Android apps, Mobile Web and Desktop Web at&lt;a href="http://www.itriagehealth.com/"&gt; &lt;/a&gt;&lt;a href="http://www.itriagehealth.com/"&gt;www&lt;/a&gt;&lt;a href="http://www.itriagehealth.com/"&gt;.&lt;/a&gt;&lt;a href="http://www.itriagehealth.com/"&gt;iTriageHealth&lt;/a&gt;&lt;a href="http://www.itriagehealth.com/"&gt;.&lt;/a&gt;&lt;a href="http://www.itriagehealth.com/"&gt;com&lt;/a&gt;). iTriage offers users an easy, fast, and trusted &lt;em&gt;symptom to provider &amp;trade; pathway &lt;/em&gt;search and decision engine. It answers the two basic questions asked by most healthcare consumers&amp;hellip;&amp;ldquo;What might be wrong with me?&amp;rdquo; and &amp;ldquo;Where should I go for treatment?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;iTriage is a widely used consumer app across iPhone, Android and the web, and has an average rating of 4.5 out of 5 stars in both the iTunes App Store and the Android Market. All of this equates to high quality expectations and a Rails app that is built to scale.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The Senior Ruby on Rails Software Engineer will be responsible for adding high quality, scalable functionality to our fast-growing web platform. In addition to traffic on www.itriagehealth.com, the web platform receives a large amount of traffic from the iTriage mobile apps on iPhone and Android.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This position reports directly to the VP Engineering, and works within a small, fast-moving technology team.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job &lt;/strong&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The ideal candidate will have the following:&lt;/p&gt;
+&lt;p&gt;Ruby on Rails specific experience&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3 - 5 years experience developing applications using Ruby on Rails.&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6 - 8 years total software engineering experience&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; BS in Computer Science or equivalent experience&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; BDD &amp;amp; TDD &amp;ndash; proficient with test frameworks such as RSpec&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQL (experience with MySQL, Postgres or equivalent)&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Experience with Mongo, Couch or other non-relational databases&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Git: Please send us your GitHub account if you have a project that you would like us to review.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;General&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Strong software engineering &amp;amp; architecture fundamentals&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Javascript, CSS, HTML (JQuery or equivalent)&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AJAX, RESTful web services, JSON&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Object-oriented programming and design including Model-View-Controller architecture&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Use of Agile project tools such as Rally or Pivotal Tracker&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; You want to be part of a growing and entrepreneurial technology start-up with proven users and business model&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; You have a &amp;ldquo;do whatever it takes&amp;rdquo; attitude&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; You want to learn more, build your experience, and contribute within a fast-paced agile environment&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; You have a focus on users and customers, and a desire to win in the marketplace&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; You excel at working with other employees and within teams&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job Responsibilities&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Deliver a best-in-class analytics dashboard for internal users and external customers&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Help define requirements for projects&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Translate feature requirements into sound, creative software designs&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Creatively solve problems&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Work collaboratively with others&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Produce solid, thoroughly tested features (including automated tests)&lt;/p&gt;
+&lt;p&gt;●&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Plan and execute software releases&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 16px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; To apply, email your resume and cover letter with salary requirements to jobs@itriagehealth.com &lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/517</id>
+    <published>2013-02-13T01:36:08Z</published>
+    <updated>2013-03-31T18:25:57Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/517-bikeroar-ruby-on-rails-developer" rel="alternate" />
+    <title>Ruby on Rails developer. needed at BikeRoar</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; USA, Tele-commuter, All U.S.A&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, Remote&lt;/p&gt;&lt;a href="http://toprubyjobs.com/517-bikeroar-ruby-on-rails-developer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/517.jpg?1360719366" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;&lt;span&gt;To work on various Ruby on Rails development projects for a sports related site.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is a full time, work from home position.&lt;br /&gt;&lt;br /&gt;&lt;span&gt;We are on the look out for a talented Ruby on Rails developer to join our team and assist in the continuing development of a site that is starting to gain traction in a growing market.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;We need your help to take it to the next level.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;This role will involve working closely with the project manager and other team members. You will be assisting in taking ideas from the conception stage and making them a reality, along with making improvements to current functions.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Your responsibilities will include but are not limited to, developing new functionality, improving upon existing coding, deploying yours and other dev's work to the production environment.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;We are a growing company and focus on having quick iterations and regular changes to the site based on customer feedback.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Please note that candidates will be required to complete a short sample project upon progressing to the interview stage to evaluate their capabilities.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Technical Skills (Essential):&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Ruby on Rails (v3.1+) &amp;amp; Ruby (v1.9+)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;MySQL (v5+) database&lt;/span&gt;&lt;br /&gt;&lt;span&gt;HTML5 &amp;amp; CSS3&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Javascript &amp;amp; jQuery&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Git distributed version control system&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Test driven development using Rspec.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Additional Skills (Desired):&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Experience with Github and gitflow&lt;/span&gt;&lt;br /&gt;&lt;span&gt;PostgreSQL&lt;/span&gt;&lt;br /&gt;&lt;span&gt;PSD to HTML slicing&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;This is a work from home position so you must have access to all the office tools to effectively tele-commute&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;This is an outstanding opportunity for a talented developer to join a growing company and to work on some fun and challenging projects.&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; e-mail resume and cover letter to pm@bikeroar.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/514</id>
+    <published>2013-02-11T03:41:42Z</published>
+    <updated>2013-03-31T17:17:27Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/514-envato-software-developer" rel="alternate" />
+    <title>Software Developer needed at Envato</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Melbourne, Victoria, AU&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/514-envato-software-developer"&gt;&lt;img src="/logos/small/missing.png" &gt;&lt;/a&gt;&lt;p&gt;&lt;h3&gt;About the position&lt;/h3&gt;
+&lt;p&gt;We've got a lot of work to do, and not quite enough developers to do it. Hopefully you can help us out.&lt;/p&gt;
+&lt;p&gt;We're looking for a few friendly, technically competent developers to augment the Envato development group. We've got a preference for people with commercial Ruby and/or Rails experience, but it's far more important that you're a capable problem solver, who can learn quickly and think on your feet. We can teach you Rails, but we can't teach common sense.&lt;/p&gt;
+&lt;p&gt;Generally as a developer on one of the Envato teams, you'll work on all kinds of things: big projects, small maintenance tasks, fiddling with servers, getting involved with users on our forums, etc.  Importantly, you&amp;rsquo;ll be deploying and supporting the work you do in production (typically many times a day). We are firm believers in the mantra &amp;ldquo;you build it, you run it&amp;rdquo;, so we don&amp;rsquo;t have a QA or Ops department to cover your back. You own the problem from beginning to end. Find out more about our team and the cool problems we solve at our developer blog - &lt;a href="http://webuild.envato.com/"&gt;webuild.envato.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To come work for us, you'll preferably tick all of the boxes below, but if you're missing a few and still feel you're a good match, apply anyway.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Essential Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be a nice person&lt;/li&gt;
+&lt;li&gt;Communicate well in person and in writing&lt;/li&gt;
+&lt;li&gt;Be a curious person committed to continual learning&lt;/li&gt;
+&lt;li&gt;Be capable of writing clean, well thought out, and reliable code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Preferred Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be a nice person &amp;amp;&amp;amp; be funny&lt;/li&gt;
+&lt;li&gt;Have commercial Ruby on Rails experience&lt;/li&gt;
+&lt;li&gt;Have experience of other high volume/scale web apps&lt;/li&gt;
+&lt;li&gt;Have solid TDD/BDD experience (and the ability to mentor juniors in this skill)&lt;/li&gt;
+&lt;li&gt;Contribute to Open Source projects&lt;/li&gt;
+&lt;li&gt;Past experience in other agile environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&amp;nbsp;&lt;br /&gt;About Envato&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A Great Company&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re 6 years old, bootstrapped, profitable, and proud. (We were even featured in the &lt;a href="http://37signals.com/svn/posts/2594-bootstrapped-profitable-proud-envato"&gt;37signals series of the same name&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;From our home page:&lt;/em&gt; Our mission is to help people to earn and to learn, online. We operate marketplaces where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn creative skills.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A Great Set of Sites&lt;/strong&gt;&lt;br /&gt; We now have 9 marketplaces, with over a 2.7 million items for sale, and 2 million users.  Our biggest marketplace is &lt;a href="http://themeforest.net"&gt;ThemeForest&lt;/a&gt;, which is the clear leader in its space, and has an Alexa rank of around 200.  Our newest is &lt;a href="http://photodune.net"&gt;PhotoDune&lt;/a&gt;. It launched last year, now has 2.4 million photos, and is considered a serious player in the stock photo industry.  Our users are engaged and passionate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A Great Team and Culture&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;re careful about hiring, and have built a team of great devs.&lt;/li&gt;
+&lt;li&gt;Developers are responsible for features from inception through to them being in the hands of customers. The devs talk directly to customers about what they&amp;rsquo;re working on.&lt;/li&gt;
+&lt;li&gt;We do continuous delivery properly: any team member can deploy, and we regularly do several deploys a day.&lt;/li&gt;
+&lt;li&gt;We publish portions of our code as open source, and contribute back to open source projects we use.&lt;/li&gt;
+&lt;li&gt;We run weekly retro and education sessions, and constantly encourage our team to improve their craft.&lt;/li&gt;
+&lt;li&gt;We have a low politics-to-actual-work ratio.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Head on over to http://techjobs.envato.com/roles/senior-developer.html and follow the instructions&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/512</id>
+    <published>2013-02-05T15:21:14Z</published>
+    <updated>2013-03-31T18:28:27Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/512-elocal-usa-llc-ruby-developer" rel="alternate" />
+    <title>Ruby Developer needed at eLocal USA LLC</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Conshohocken, PA, USA&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time&lt;/p&gt;&lt;a href="http://toprubyjobs.com/512-elocal-usa-llc-ruby-developer"&gt;&lt;img src="/logos/small/missing.png" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;What We Want:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ostensibly, the job title is Ruby Developer, but really your job involves bringing to life the software that is used by our consumers, customers and internal users.&amp;nbsp; You will be responsible, in concert with our product and operations teams, for feature definition, project planning and estimation, development, testing, deployment, and maintenance.&amp;nbsp; Often, we work with Ruby and Rails, but there are many other tools in our toolbox, including PostgreSQL, Solr, Chef, Redis, AWS, PhoneGap, and more.&amp;nbsp; Our developers are given the freedom to find the best solution, but must take on the responsibility for a successful implementation.&amp;nbsp; We are looking for an individual who has a proven ability to ship great software regardless of the technology.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Must Haves:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eligible for work in the US&lt;/li&gt;
+&lt;li&gt;At least 2-5 years of relevant web development experience&lt;/li&gt;
+&lt;li&gt;Experience with scripting languages such as PHP, Python, or Ruby, (Hardcore would be a +!) as well as the ability to quickly learn and apply new technologies (we are willing to take someone without Ruby experience assuming you have lots of web development experience and are willing to learn)&lt;/li&gt;
+&lt;li&gt;Experience owning, delivering and maintaining production code or services&lt;/li&gt;
+&lt;li&gt;Exposure developing on Linux/Unix.&amp;nbsp; You don't need to be an admin, but you need to be comfortable with a terminal shell&lt;/li&gt;
+&lt;li&gt;Self motivated with a strong work ethic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Nice to Haves:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Devops: Linux Administration / Nginx / Amazon Web Services / Chef&lt;/li&gt;
+&lt;li&gt;Data: PostgreSQL / Redis / Solr&lt;/li&gt;
+&lt;li&gt;Javascript: CoffeeScript / JQuery&lt;/li&gt;
+&lt;li&gt;Mobile: Phone Gap / iOS development&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Compensation: &lt;/strong&gt;Highly competitive salary dependent upon experience; bonuses based on individual and company performance; fully paid health/dental benefits, fully paid gym memberships;&amp;nbsp; all the caffeinated beverages you desire&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who We Are:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At eLocal our mission is to help consumers connect with local businesses.&amp;nbsp; We started eLocal in late 2006, first focusing on being best in class in a select group of niche online directories and recently expanding eLocal.com to&amp;nbsp; all the major consumer oriented business categories.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span style="font-size: 16px;"&gt;We offer an intellectual, casual, and fun work environment with a great opportunity for growth and long-term potential.&amp;nbsp; You will be working on our development team and working closely with our CTO, our founders, and other key team members improving both our consumer facing and internal tools.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span style="font-size: 16px;"&gt;Our office is outfitted with a game room and we offer every employee a fully paid gym membership right next to our Conshohocken office for working out before or after work.&amp;nbsp; We are located right across from the R6 Spring Mill SEPTA station and are accessible from the city or the Philadelphia suburbs.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span style="font-size: 16px;"&gt;We understand that on any given day people need flexibility to get personal things done and we offer such flexibility. We are also able to accommodate people whose schedules need to vary somewhat based on their individual circumstances. We are focused on doing what it takes to produce the best results, not on punching a clock.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How To Apply: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please send an email to &lt;a href="mailto:resumes@elocal.com"&gt;resumes@elocal.com&lt;/a&gt; with the subject &lt;strong&gt;Ruby Developer. &lt;/strong&gt;&amp;nbsp;Please include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your resume&lt;/li&gt;
+&lt;li&gt;A link to a repository (Github/Bitbucket/etc.) with      an example of your work.&amp;nbsp; This could      be work from a personal project, contributions to an open source project,      or just a simple example to highlight.&amp;nbsp;      Rails projects preferred, but we would rather see something you are      proud of regardless of technology/language.&lt;strong&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 16px;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Please send an email to resumes@elocal.com&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/511</id>
+    <published>2013-02-04T21:41:58Z</published>
+    <updated>2013-03-31T18:27:21Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/511-smartlogic-solutions-developer" rel="alternate" />
+    <title>Developer needed at SmartLogic Solutions</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Baltimore, MD, US&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time&lt;/p&gt;&lt;a href="http://toprubyjobs.com/511-smartlogic-solutions-developer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/511.png?1360014166" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;Work for a company that focuses on intelligent simplicity, so you can focus on what you&amp;rsquo;re best at: coding.&lt;/p&gt;
+&lt;p&gt;We're a &lt;a href="http://smartlogicsolutions.com" target="_blank"&gt;web and mobile product development company&lt;/a&gt; based in Baltimore, MD. We build web and mobile apps in RoR, Javascript, HTML, iOS, and Android. You&amp;rsquo;ll always be learning and surrounded by smart people.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://smartlogicsolutions.com/images/office1.png" alt="Picture of SmartLogic's Office 1/3" /&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;img src="http://smartlogicsolutions.com/images/office2.png" alt="Picture of SmartLogic's Office 2/3" /&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;img src="http://smartlogicsolutions.com/images/office3.png" alt="Picture of SmartLogic's Office 3/3" /&gt;&lt;/p&gt;
+&lt;h3&gt;What do we have to offer?&lt;/h3&gt;
+&lt;p&gt;We're glad you asked. Here&amp;rsquo;s a few things that set us apart:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Work with other technical people:&lt;/strong&gt; The principal is a programmer. We have BS/MSE degrees in Computer Science. We know this stuff REALLY well.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Never drive in rush hour traffic again:&lt;/strong&gt; You only have to be in the office from 10 am to 3:30 pm. Fill in the rest of your 40 hours when you can. Plus we work remotely every other Friday. You can choose whether to get stuff done in the office, in your favorite coffee shop, or on your couch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kiss stress goodbye:&lt;/strong&gt; No one does their best work when they&amp;rsquo;re facing impossible deadlines and screaming project managers. That nonsense simply does not happen here. We have a great process for completing client work, which eases stress and streamlines all operations in the company.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go-Go gadget:&lt;/strong&gt; Everyone gets a new 27" iMac. We also have about 15 extra 20" monitors in boxes if you'd like to put them to good use...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chow down, on us:&lt;/strong&gt; We&amp;rsquo;ve got a grocery budget. Just tell us what you want us to keep in stock and we'll get it. Breakfast? Nutella? It&amp;rsquo;s on. Plus, we provide company lunch once a week. Yum.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learn constantly:&lt;/strong&gt; Our projects typically last several months, which means you&amp;rsquo;ll quickly gain experience working on several different types of applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engage with your community: &lt;/strong&gt;SmartLogic helps to organize BohConf, Ignite RailsConf, Bmore on Rails, and sponsors &lt;a href="http://blog.smartlogicsolutions.com/2012/12/20/3288-slices-the-baltimore-tech-communitys-2012-growth-measured-in-pizza/" target="_blank"&gt;tons of community events&lt;/a&gt;. Have ideas of what you&amp;rsquo;d like the company to support? We&amp;rsquo;re all ears.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose your own team:&lt;/strong&gt; Our interview process is based on maintaining the best culture for creating excellent technology. You won&amp;rsquo;t talk to &amp;ldquo;human resources,&amp;rdquo; instead, you&amp;rsquo;ll be interviewed directly by our developers. Before too long, you could be interviewing your next teammate. Work with people you know you can teach--and learn from--because you helped to choose them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escape communication breakdowns:&lt;/strong&gt; Communication is huge at SmartLogic. We have daily standup meetings, constantly hang out on Campfire, and place a huge emphasis on talking about problems before they become crises.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team up:&lt;/strong&gt; Not only do we talk to each other all the time, we give more than lip service to working together and trading ideas. Beyond regularly pair programming, we hash things out at weekly company lunches, and we even started a quarterly internal conference. Have an idea for the company? With help from your team, you can make it happen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forget about tradeoffs:&lt;/strong&gt; So, you might be thinking, what&amp;rsquo;s the tradeoff? None! We offer competitive pay, medical insurance, vacation, all the basics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work in a great environment:&lt;/strong&gt; We&amp;rsquo;re dedicated to providing office space that&amp;rsquo;s aesthetically and intellectually pleasing. We&amp;rsquo;re currently located in a beautiful office with tons of windows in the Emerging Technology Center, Canton, where we&amp;rsquo;re surrounded by other technology companies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Important note: We specialize in Ruby on Rails, but many of our developers started at our company with little to no Ruby/Rails experience. We hire smart people and help them gain the correct skills.&lt;/p&gt;
+&lt;h3&gt;Don&amp;rsquo;t believe it? Hear it from our employees. Why I like working at SmartLogic:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Paul Ostazeski, Developer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img title="Paul Ostazeski" src="http://smartlogicsolutions.com/images/team/paul.png" alt="Paul Ostazeski" width="210" height="140" /&gt;&lt;/p&gt;
+&amp;nbsp;  
+&lt;ul&gt;
+&lt;li&gt;SLS functions as a meritocracy. Ideas can be tried out, and when they work they stick, and when they don't work they fall by the wayside. (Establishing continuous integration and deployment with borg is a great example).&lt;/li&gt;
+&lt;li&gt;Transparency. I never worry about the future health of the company because there isn't any part of the business that is hidden. Yair does a great job of shielding me from the stuff I don't care about (invoicing, attracting clients, payroll), but that doesn't mean I'm shut out from those things.&lt;/li&gt;
+&lt;li&gt;Open space with great light.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Eric Oestrich, Developer:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I like that I get to go to conferences such as RESTFest and RubyConf.&lt;/p&gt;
+&lt;p&gt;&lt;img title="Eric Oestrich" src="http://smartlogicsolutions.com/images/team/eric.png" alt="Eric Oestrich" width="210" height="140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dan Ivovich, Director of Development Operations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img title="Dan Ivovich" src="http://smartlogicsolutions.com/images/team/dan.png" alt="Dan Ivovich" width="210" height="140" /&gt;&lt;/p&gt;
+&amp;nbsp;  
+&lt;ul&gt;
+&lt;li&gt;The respect and trust to make technical decisions without management oversight.&lt;/li&gt;
+&lt;li&gt;Autonomy to do the work as we see best, and the support of management to convey to the client we are doing the best work possible as a result.&lt;/li&gt;
+&lt;li&gt;Culture that always supports the best way being the only way things should be done.&lt;/li&gt;
+&lt;li&gt;Flexibility in working hours to accommodate life, but dedication from everyone to try and work the same hours to increase collaboration and support of each other's work.&lt;/li&gt;
+&lt;li&gt;We use the best tools we can, and the best process we can, so that developers are happy and enjoy doing the best work they can do&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Yair Flicker, President:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Everyone here is really smart and independent. There's no need to micromanage. There is no stress. I'm always learning new things.&lt;/p&gt;
+&lt;p&gt;&lt;img title="Yair Flicker" src="http://smartlogicsolutions.com/images/team/yair.png" alt="Yair Flicker" width="450" height="170" /&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; If you're interested, please send a resume to yair@smartlogicsolutions.com.&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:toprubyjobs.com,2010:Job/510</id>
+    <published>2013-02-02T01:13:12Z</published>
+    <updated>2013-03-31T10:45:08Z</updated>
+    <link type="text/html" href="http://toprubyjobs.com/jobs/510-optoro-senior-web-developer" rel="alternate" />
+    <title>Senior Web Developer needed at Optoro</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Washington, DC, US&lt;br /&gt;&lt;strong&gt;Type:&lt;/strong&gt; Full-Time, In House&lt;/p&gt;&lt;a href="http://toprubyjobs.com/510-optoro-senior-web-developer"&gt;&lt;img src="http://s3.amazonaws.com/toprubyjobs.production/small/510.jpg?1359767591" &gt;&lt;/a&gt;&lt;p&gt;&lt;p&gt;Full-Time in Washington, DC&lt;/p&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;POSITION SUMMARY&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Optoro, a rapidly growing e-commerce and software business, is looking for a Senior Web Developer to join our energetic, creative, and forward-thinking team.&lt;/p&gt;
+&lt;p&gt;As an integral member of our team, you&amp;rsquo;ll help create dynamic Ruby on Rails&amp;ndash;based web and mobile applications for Optoro&amp;rsquo;s enterprise software solution, data and analytics platform, and cutting-edge e-commerce site&amp;nbsp;&lt;a href="http://www.blinq.com/"&gt;BLINQ.com&lt;/a&gt;&amp;nbsp;(currently in redevelopment).&lt;/p&gt;
+&lt;p&gt;You will be responsible for programming Ruby with Ruby on Rails,&amp;nbsp;JavaScript&amp;nbsp;(using jQuery, Coffeescript, and Ember), and test code (RSpec and Cucumber). You will additionally have some ops responsibilities, so familiarity with Linux and related service technologies (Unicorn, Redis, MySQL, MongoDB, etc) is a bonus.&lt;/p&gt;
+&lt;p&gt;You will be involved in core decision making. Each member of our small but powerful tech team is a heavy-hitter, making a competitive salary and solid benefits including heath, 401K, and equity options.&lt;/p&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;OUR IDEAL CANDIDATE&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="normal"&gt;
+&lt;li&gt;Is excited about Ruby and Ruby on Rails&lt;/li&gt;
+&lt;li&gt;Has extensive knowledge of Ruby and Ruby on Rails&lt;/li&gt;
+&lt;li&gt;Has demonstrated superior understanding of web technologies&lt;/li&gt;
+&lt;li&gt;Is passionate about good, clean code&lt;/li&gt;
+&lt;li&gt;Has built and deployed apps for fun on their own time&lt;/li&gt;
+&lt;li&gt;Truly understands open source and is passionate about open code&lt;/li&gt;
+&lt;li&gt;Is comfortable with git and is not afraid of leaving the IDE&lt;/li&gt;
+&lt;li&gt;Stays on top of the latest trends in the tech world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="normal"&gt;
+&lt;/ul&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;COMPENSATION&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="normal"&gt;
+&lt;li&gt;Competitive salary&lt;/li&gt;
+&lt;li&gt;Equity component in a rapidly growing company&lt;/li&gt;
+&lt;li&gt;401k, full health insurance&lt;/li&gt;
+&lt;li&gt;Paid time off, company lunches, and flexible schedules&lt;/li&gt;
+&lt;li&gt;Full-time position&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;ABOUT OPTORO&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="normal"&gt;
+&lt;li&gt;Recently targeted as one of the fastest growing companies in DC&lt;/li&gt;
+&lt;li&gt;Profitable, and well capitalized; in business since 2004&lt;/li&gt;
+&lt;li&gt;A young, passionate, fun-loving team based in Washington, DC&lt;/li&gt;
+&lt;li&gt;Laid-back and results-oriented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Optoro partners with major retailers around the country to help them remarket their overstock and returned merchandise using a proprietary multi-channel online selling solution. We allow our clients to recover significantly greater value than through a traditional liquidator. For further information, please visit&amp;nbsp;&lt;a href="http://www.optoro.com/"&gt;www.optoro.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;TO APPLY&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please send your resume and samples of your work, including your github username and an application you have created, to&amp;nbsp;&lt;a href="mailto:itjobs@optoro.com"&gt;itjobs@optoro.com&lt;/a&gt;. .&lt;/p&gt;
+&lt;p class="list-leader"&gt;&lt;strong&gt;KEYWORDS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(You know, for SEO) Ruby, Ruby on Rails, Ember, jQuery, JavaScript, CoffeeScript, RSpec, Cucumber, Amazon, eBay, PayPal, ActiveMerchant, &amp;nbsp;Nokogiri, MongoMapper, HTTParty, Plucky, HAML, Sass, MongoDB, MySQL, Redis, Resque, Memcached, Apache, Passenger, Unicorn&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt; Please send your resume and samples of your work to itjobs@optoro.com.&lt;/p&gt;</content>
+    <author>
+      <name>Top Ruby Jobs</name>
+    </author>
+  </entry>
+</feed>

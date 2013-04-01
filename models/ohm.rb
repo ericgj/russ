@@ -1,15 +1,23 @@
 require 'set'
 require 'ohm/datatypes'
 
+
+class Ohm::Model
+  def self.get_attributes; attributes; end
+end
+
 class Reader < Ohm::Model
   
   attribute :email
   attribute :nick
+  attribute :name
   set :feeds, :Feed
 
   unique :identity
 
   def identity; nick; end
+
+  def fullname; name || nick; end
 
   # Note: subscription is initiated through Reader
   def subscribe(feed,tags=[])
@@ -21,6 +29,20 @@ class Reader < Ohm::Model
 
   def feeds_tagged(*tags)
     feeds.find Feed.tagged_by(self,tags)
+  end
+
+  def virtual_feed(tag, attrs={}) 
+    attrs[:uri] ||= Feed.build_tag(self,tag)
+    f = FeedStruct.new(attrs)
+    feeds_tagged(tag).each do |source|
+      source.entries.each do |entry|
+        e = Entry.new(entry.attributes)
+        e.source = source.source_metadata
+        f.entries << e
+      end
+    end
+    f.entries.sort!
+    f
   end
 
 end
@@ -54,6 +76,18 @@ class Feed < Ohm::Model
 
   def primary_link
     links.find {|link| link['rel'] == 'self'}
+  end
+
+  def metadata(opts = {})
+    excl = opts.fetch(:excl,[:entries])
+    (attributes.keys - excl).inject({}) { |m,k|
+      m[k] = attributes[k]
+      m
+    }
+  end
+
+  def source_metadata
+    metadata :excl => [:entries,:categories,:generator,:icon,:logo,:subtitle]
   end
 
   def initialize(attrs={})
@@ -94,6 +128,7 @@ class Feed < Ohm::Model
     end
   end
 
+
   def subscribe(reader,tags=[])
     readers.add reader.id
     Array(tags).each do |tag| 
@@ -104,6 +139,23 @@ class Feed < Ohm::Model
  
 end
 
+class FeedStruct 
+  attr_accessor *Feed.get_attributes
+ 
+  def links;        @links ||= [];        end
+  def authors;      @authors ||= [];      end
+  def categories;   @categories ||= [];   end
+  def contributors; @contributors ||= []; end
+  def entries;      @entries ||= [];      end
+
+  def primary_link
+    links.find {|link| link['rel'] == 'self'}
+  end
+    
+  def initialize(attrs={})
+    attrs.each do |k,v| self.send("#{k}=",v) end
+  end
+end
 
 class Entry < Ohm::Model
   include Ohm::DataTypes
@@ -141,6 +193,11 @@ class Entry < Ohm::Model
     @attributes[:content] ||= SerializedHash.new
     @attributes[:rights] ||= SerializedHash.new
     @attributes[:source] ||= SerializedHash.new
+  end
+
+  # Note: default reverse sort by date
+  def <=>(other)
+    return other.updated <=> self.updated
   end
 
 end

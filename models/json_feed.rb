@@ -33,6 +33,7 @@ module Russ
       end
 
       def source_element(e={})
+        e['id'] ||= e.delete('uri')
         e
       end
 
@@ -87,7 +88,7 @@ module Russ
       end
 
       def _contribs_array
-        (contributors || []).map {|c| person_element(a)}
+        (contributors || []).map {|c| person_element(c)}
       end
 
       def _entries_array
