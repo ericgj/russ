@@ -121,12 +121,6 @@ class Feed < Ohm::Model
     @attributes[:rights] ||= SerializedHash.new
   end
 
-  private
-
-  def _slugify
-    "#{id}-#{self.class.slug( title_text || '' )}"
-  end
-
   class << self
 
     def aggregate(pred,attrs={})
@@ -167,7 +161,6 @@ class Feed < Ohm::Model
     end
   end
 
-
   def subscribe(reader,tags=[])
     readers.add reader.id
     Array(tags).each do |tag| 
@@ -175,7 +168,13 @@ class Feed < Ohm::Model
     end
     self.save
   end
- 
+
+  private
+
+  def _slugify
+    "#{id}-#{self.class.slug( title_text || '' )}"
+  end
+
 end
 
 class FeedStruct 
