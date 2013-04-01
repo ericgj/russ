@@ -31,18 +31,14 @@ class Reader < Ohm::Model
     feeds.find Feed.tagged_by(self,tags)
   end
 
-  def virtual_feed(tag, attrs={}) 
+  def aggregate_feed(attrs={})
+    attrs[:uri] ||= nick
+    Feed.aggregate( Feed.subscribed_by(self), attrs )
+  end
+
+  def aggregate_feed_for_tag(tag, attrs={})
     attrs[:uri] ||= Feed.build_tag(self,tag)
-    f = FeedStruct.new(attrs)
-    feeds_tagged(tag).each do |source|
-      source.entries.each do |entry|
-        e = Entry.new(entry.attributes)
-        e.source = source.source_metadata
-        f.entries << e
-      end
-    end
-    f.entries.sort!
-    f
+    Feed.aggregate( Feed.tagged_by(self,tag), attrs )
   end
 
 end
@@ -78,10 +74,11 @@ class Feed < Ohm::Model
     links.find {|link| link['rel'] == 'self'}
   end
 
+  # Note string keys to preserve identity before/after serialization
   def metadata(opts = {})
     excl = opts.fetch(:excl,[:entries])
     (attributes.keys - excl).inject({}) { |m,k|
-      m[k] = attributes[k]
+      m[k.to_s] = attributes[k]
       m
     }
   end
@@ -103,6 +100,20 @@ class Feed < Ohm::Model
 
 
   class << self
+
+    def aggregate(pred,attrs={})
+      f = FeedStruct.new(attrs)
+      find(pred).each do |source|
+        source.entries.each do |entry|
+          e = Entry.new(entry.attributes)
+          e.source = source.source_metadata
+          f.entries << e
+        end
+      end
+      f.entries.sort!
+      f
+    end
+
     def find_subscribed_by(readers)
       find subscribed_by(readers)
     end
