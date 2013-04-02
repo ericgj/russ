@@ -2,11 +2,13 @@
 class SourceFeedRoutes < Cuba
   define do
   
+
     on ':slug' do |slug|
+
+      feed = Feed.with(:slug,slug)
 
       on get do
 
-        feed = Feed.with(:slug,slug)
         rep = Russ::Json::Feed.new(feed)
 
         on accept('application/json') do
@@ -26,6 +28,10 @@ class SourceFeedRoutes < Cuba
       end
 
       on put do
+        
+        tags = Array(params['tag'])
+        reader = Reader.with(:identity, current_user.nick)
+        reader.subscribe(feed,tags)
 
       end
 

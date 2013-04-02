@@ -7,7 +7,7 @@ class UserFeedRoutes < Cuba
       reader = Reader.with(:identity,nick)
 
       on get do
-        feed = reader.aggregate_feed_for_tag( tag, 
+        feed = reader.aggregate_for_tag( tag, 
                  :uri => "/u/feed/#{nick}/#{tag}",
                  :title => "Aggregate feed: #{tag}",
                  :contributors => [{'name' => reader.fullname}],
@@ -29,7 +29,7 @@ class UserFeedRoutes < Cuba
       reader = Reader.with(:identity,nick)
 
       on get do
-        feed = reader.aggregate_feed(  
+        feed = reader.aggregate(  
                  :uri => "/u/feed/#{nick}",
                  :title => "Aggregate feed: #{reader.fullname}",
                  :contributors => [{'name' => reader.fullname}],

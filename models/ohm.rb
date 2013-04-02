@@ -29,28 +29,58 @@ class Reader < Ohm::Model
 
   def fullname; name || nick; end
 
+  def tags
+    self.key[:tags].smembers
+  end
+
+  def feeds_tagged(tag)
+    self.feeds.fetch self.key[:feedtags][tag].smembers
+  end
+  
+  def tag(feed, tag)
+    self.key[:tags].sadd(tag)
+    self.key[:feedtags][tag].sadd(feed.id)
+  end
+
+  def untag(feed, tag)
+    self.key[:feedtags][tag].srem(feed.id)
+  end
+
   # Note: subscription is initiated through Reader
   def subscribe(feed,tags=[])
-    feed.subscribe self, tags
+    Array(tags).each do |t| self.tag(feed,t) end
     feeds.add feed
   end
 
-  # TODO unsubscribe
-
-  def feeds_tagged(*tags)
-    feeds.find Feed.tagged_by(self,tags)
+  def unsubscribe(feed)
+    self.tags.each do |t| self.untag(feed,t) end    # non-optimized
+    feeds.delete feed
   end
 
-  def aggregate_feed(attrs={})
+  def aggregate(attrs={})
+    aggregate_feeds self.feeds, attrs
+  end
+
+  def aggregate_for_tag(tag, attrs={})
+    aggregate_feeds self.feeds_tagged(tag), attrs
+  end
+
+  # TODO do the inner entry dup in Feed, yielding new entry?
+
+  def aggregate_feeds(feeds, attrs={})
     attrs[:uri] ||= nick
-    Feed.aggregate( Feed.subscribed_by(self), attrs )
+    f = FeedStruct.new(attrs)
+    feeds.each do |source|
+      source.entries.each do |entry|
+        e = Entry.new(entry.attributes)
+        e.source = source.source_metadata
+        f.entries << e
+      end
+    end
+    f.entries.sort!
+    f
   end
-
-  def aggregate_feed_for_tag(tag, attrs={})
-    attrs[:uri] ||= Feed.build_tag(self,tag)
-    Feed.aggregate( Feed.tagged_by(self,tag), attrs )
-  end
-
+    
 end
 
 class Feed < Ohm::Model
@@ -72,16 +102,13 @@ class Feed < Ohm::Model
 
   collection :entries,     :Entry
   
+  unique :id
   unique :identity
   unique :slug
   index :updated
-  index :readers
-  index :tags
 
   def identity; uri;                      end
   def slug;     _slugify;                 end
-  def readers;  @readers ||= Set.new; end
-  def tags;     @tags ||= Set.new;    end
 
   def primary_link
     links.find {|link| link['rel'] == 'self'}
@@ -119,54 +146,6 @@ class Feed < Ohm::Model
     @attributes[:contributors] ||= SerializedArray.new
     @attributes[:generator] ||= SerializedHash.new
     @attributes[:rights] ||= SerializedHash.new
-  end
-
-  class << self
-
-    def aggregate(pred,attrs={})
-      f = FeedStruct.new(attrs)
-      find(pred).each do |source|
-        source.entries.each do |entry|
-          e = Entry.new(entry.attributes)
-          e.source = source.source_metadata
-          f.entries << e
-        end
-      end
-      f.entries.sort!
-      f
-    end
-
-    def find_subscribed_by(readers)
-      find subscribed_by(readers)
-    end
-
-    def find_tagged_by(reader,tags)
-      find tagged_by(reader,tags)
-    end
-
-    def subscribed_by(readers)
-      {:readers => Array(readers).map {|r| r.id} }
-    end
-
-    def tagged_by(reader,tags)
-      {:tags => build_tags(reader,Array(tags))}
-    end
-
-    def build_tags(reader,tags)
-      tags.map {|tag| build_tag(reader,tag) }
-    end
-
-    def build_tag(reader,tag)
-      [reader.identity,tag].compact.join('/')
-    end
-  end
-
-  def subscribe(reader,tags=[])
-    readers.add reader.id
-    Array(tags).each do |tag| 
-      self.tags.add self.class.build_tag(reader, tag) 
-    end
-    self.save
   end
 
   private
